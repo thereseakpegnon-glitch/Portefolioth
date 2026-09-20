@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio thérèse</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+   <h1>Thérèse AKPEGNON</h1>
+    <nav>
+        <a href="#accueil">Accueil</a>
+        <a href="#apropos">À propos</a>
+        <a href="#competences">Compétences</a>
+        <a href="#projets">Projets</a>
+        <a href="#contact">Contact</a>
+    </nav> 
+  </header>
+  <main>
+  <section id="accueil">
+    <div class="hero-texte">
+        <h2>Bienvenue sur mon portfolio</h2>
+        <p>
+            Géographe spécialisée dans l’analyse des données géographiques,
+            environnementales et climatiques.
+        </p>
+        <p>
+            Je m’intéresse également aux outils numériques et au développement web,
+            que je découvre progressivement dans le cadre de ma formation.
+        </p>
+        <a href="#projets" class="bouton-principal">Voir mes projets</a>
+        <a href="#contact">Me contacter</a>
+    </div>
+  <div class="hero-visuel">
+    <img src="image/5.webp" alt="Illustration cartographique représentant un visuel géographique">
+</div>
+</section>
+<section id="apropos">
+    <div class="apropos-photo">
+        <h2>À propos</h2>
+
+        <div class="photo-placeholder">
+            <img src="image/4.webp" alt="Portrait de AKPEGNON Thérèse">
+        </div>
+    </div>
+    <div class="apropos-texte">
+        <p>
+            Je suis Thérèse AKPEGNON, géographe titulaire d’un master de recherche
+            en Géosciences et Dynamiques des Milieux Biophysiques à l’Université
+            de Lomé au Togo.
+        </p>
+        <p>
+            Ma formation m’a permis de développer des compétences dans les domaines
+            des systèmes d’information géographique (SIG), de la cartographie,
+            du traitement des données géographiques ainsi que du traitement et de
+            l’analyse des données climatiques.
+        </p>
+        <p>
+            Mes travaux de recherche portent notamment sur l’analyse de la
+            variabilité climatique et de ses impacts sur la production agricole.
+            Je m’intéresse également aux outils numériques et au développement web,
+            que je découvre et développe progressivement.
+        </p>
+    </div>
+</section>
+<section id="competences">
+    <h2>Compétences</h2>
+    <div class="competences-container">
+        <div class="competence">
+            <h3>Systèmes d’Information Géographique (SIG)</h3>
+            <p>Utilisation des outils SIG pour l’analyse et la représentation des données géographiques.</p>
+        </div>
+        <div class="competence">
+            <h3>Cartographie</h3>
+            <p>Réalisation et exploitation de cartes pour représenter les informations géographiques.</p>
+        </div>
+        <div class="competence">
+            <h3>Géoréférencement et traitement des données géographiques</h3>
+            <p>Géoréférencement et traitement de données géographiques et de documents cadastraux.</p>
+        </div>
+        <div class="competence">
+            <h3>Traitement et analyse des données climatiques</h3>
+            <p>Traitement et analyse de données climatiques dans le cadre des travaux de recherche.</p>
+        </div>
+        <div class="competence">
+            <h3>Enquête de terrain et collecte de données</h3>
+            <p>Collecte d’informations sur le terrain à l’aide d’enquêtes auprès des populations et des producteurs.</p>
+        </div>
+        <div class="competence">
+            <h3>Développement web</h3>
+            <p>Apprentissage progressif de la conception et du développement web.</p>
+        </div>
+    </div>
+</section>
+<section id="projets">
+    <h2>Projets</h2>
+    <div class="projets-container">
+        <article class="projet">
+            <h3>Analyse de la variabilité climatique dans l’aval du bassin du Haho</h3>
+            <p>Travail de recherche sur les précipitations, les températures et leurs effets sur la production agricole dans l’aval du bassin du Haho.</p>
+        </article>
+        <article class="projet">
+            <h3>Géoréférencement et correction de plans cadastraux</h3>
+            <p>Travaux de géoréférencement et de correction de plans cadastraux dans le cadre du traitement de données géographiques.</p>
+        </article>
+        <article class="projet">
+            <h3>Exercice de conception d’une interface web</h3>
+            <p>Exercice de formation réalisé avec Stitch et Figma autour de la conception d’une interface web responsive.</p>
+        </article>
+    </div>
+    <a href="projet.html" class="voir-projets">Voir plus de détails</a>
+</section>
+<section id="contact">
+    <h2>Contact</h2>
+    <form class="contact-form" novalidate>
+        <label for="nom">Nom</label>
+        <input type="text" id="nom" name="nom" required>
+        <label for="email">Adresse e-mail</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" required></textarea>
+        <button type="submit">Envoyer le message</button>
+    </form>
+</section> 
+</main>
+<footer>
+    <p>&copy; 2026 Thérèse AKPEGNON. Tous droits réservés.</p>
+    <p><a href="mailto:thereseakpegnon@gmail.com">thereseakpegnon@gmail.com</a></p>
+</footer>
+<button id="scrollTop" aria-label="Retour en haut de la page">↑</button>
+<script src="script.js"></script>
+</body>
+</html>

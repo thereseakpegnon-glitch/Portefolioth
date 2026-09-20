@@ -1,0 +1,351 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    line-height: 1.6;
+    background-color: #F7F7F3;
+    color: #222222;
+}
+header {
+    padding: 20px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     border: 1px solid #CCCCCC;
+    padding: 15px 25px;
+}
+header h1 {
+    font-size: 28px;
+    color: #5F91B2;
+}
+nav {
+    display: flex;
+    gap: 20px;
+}
+nav a {
+    text-decoration: none;
+    color: #3F454A;
+}
+nav a:hover {
+    color: #5F91B2;
+}
+#accueil {
+    padding: 100px 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    align-items: center;
+}
+.hero-texte {
+    max-width: 700px;
+}
+#accueil h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #5F91B2;
+}
+#accueil p {
+    margin-bottom: 15px;
+}
+#accueil a {
+    display: inline-block;
+    margin: 20px 10px 0 0;
+    padding: 12px 24px;
+    text-decoration: none;
+    border: 1px solid #5F91B2;
+    color: #222222;
+    border-radius: 6px;
+}
+#accueil a:hover {
+    background-color: #DCECF7;
+    color: #222222;
+}
+.bouton-principal {
+    background-color: #35e8f8;
+    color: #222222;
+}
+.bouton-principal:hover {
+    background-color: #3F8FC4;
+    color: white;
+}
+.hero-visuel {
+    min-height: 350px;
+     border: 1px solid #E1E6E9;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-visuel img {
+     width: 80%;
+    max-width: 450px;
+    height: auto;
+}
+#apropos {
+    padding: 80px 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    align-items: start;
+    background-color: #F2F6F8;
+}
+.apropos-photo h2 {
+    font-size: 32px;
+    margin-bottom: 25px;
+    color: #5F91B2;
+}
+.photo-placeholder {
+    min-height: 350px;
+    border: 1px solid #E1E6E9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     color: #777777;
+    font-size: 18px;
+}
+.photo-placeholder img {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    display: block;
+}
+.apropos-texte {
+    padding-top: 0px;
+    align-self: center;
+}
+.apropos-texte p {
+    max-width: 700px;
+    margin-bottom: 15px;
+}
+#competences {
+    padding: 80px 5%;
+    background-color: #EAF3F8;
+}
+#competences h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: #5F91B2;
+}
+#competences h3 {
+    font-size: 22px;
+    margin-top: 25px;
+    margin-bottom: 8px;
+}
+#competences p {
+    max-width: 800px;
+}
+.competences-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+.competence {
+    padding: 25px;
+    border: 1px solid #ccc;
+    background-color: #FFFFFF;
+     border-color: #6FAED6;
+     border-radius: 10px;
+}
+.competence:hover {
+    border-color: #6FAED6;
+}
+#projets {
+    padding: 80px 5%;
+   background-color: #F4F6F6;
+}
+#projets h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: #5F91B2;
+}
+.projets-container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+.projet {
+    padding: 25px;
+    border: 1px solid #ccc;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+.projet:hover {
+    border-color: #6FAED6;
+}
+.projet h3 {
+    font-size: 22px;
+    margin-bottom: 12px;
+}
+#contact {
+    padding: 80px 5%;
+    background-color: #F1F4F5;
+}
+#contact h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: #5F91B2;
+}
+#contact form {
+    max-width: 700px;
+}
+#contact label {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+#contact input,
+#contact textarea {
+    width: 100%;
+    padding: 12px;
+    font-family: inherit;
+    font-size: 16px;
+    border: 1px solid #D5DDE2;
+    background-color: #FFFFFF;
+}
+#contact textarea {
+    min-height: 150px;
+    resize: vertical;
+}
+#contact button {
+    margin-top: 20px;
+    padding: 12px 24px;
+    font-family: inherit;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #5F91B2;
+    color: #222222;
+    border: 1px solid #5F91B2;
+}
+#contact button:hover {
+    background-color: #3F8FC4;
+    color: white;
+}
+#contact button:active {
+    background-color: #2F7FAF;
+}
+footer {
+    padding: 30px 5%;
+    text-align: center;
+    border-top: 1px solid #ccc;
+    background-color: #FFFFFF;
+}
+footer p {
+    font-size: 14px;
+}
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+    nav {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #accueil {
+        grid-template-columns: 1fr;
+        text-align: center;
+        padding: 70px 5%;
+    }
+    .hero-texte {
+        max-width: 100%;
+    }
+    #accueil h2 {
+        font-size: 32px;
+    }
+    #accueil a {
+        margin: 10px 5px 0 0;
+        padding: 10px 18px;
+    }
+    .hero-visuel {
+        min-height: 250px;
+    }
+    #apropos {
+        grid-template-columns:1fr ;
+        gap: 30px;
+        padding: 60px 5%;
+    }
+    .apropos-texte {
+        padding-top: 0;
+    }
+    .apropos-photo img {
+        max-width: 100%;
+    }
+    #competences,
+    #projets,
+    #contact {
+        padding: 60px 5%;
+    }
+    #apropos h2,
+    #competences h2,
+    #projets h2,
+    #contact h2 {
+        font-size: 28px;
+    }
+    .competences-container {
+        grid-template-columns: 1fr;
+    }
+    .projets-container {
+        grid-template-columns: 1fr;
+    }
+}
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 24px;
+    }
+    nav {
+        gap: 12px;
+    }
+    #accueil h2 {
+        font-size: 28px;
+    }
+    .competence,
+    .projet {
+        padding: 20px;
+    }
+}
+#scrollTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    width: 45px;
+    height: 45px;
+    border: 1px solid #222;
+    background-color: white;
+    color: #222;
+    font-size: 20px;
+    cursor: pointer;
+}
+#scrollTop:hover {
+    background-color: #222;
+    color: white;
+}
+main > section + section {
+    border-top: 1px solid #DCECF7;
+}
+.voir-projets {
+    display: inline-block;
+    margin-top: 30px;
+    color: #6FAED6;
+    text-decoration: none;
+    font-size: 17px;
+}
+.voir-projets:hover {
+    color: #3F8FC4;
+    text-decoration: underline;
+}
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+    outline: 2px solid #6FAED6;
+    outline-offset: 3px;
+}
+.projets-page .projet p {
+    max-width: 750px;
+}
